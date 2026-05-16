@@ -5,7 +5,7 @@ A personal OKR and goal-tracking workspace built around [Claude Code](https://cl
 ## Getting started
 
 1. Clone this repo and open it in Claude Code
-2. Edit `goals.md` with your own objectives and key results
+2. Edit `goals.md` with your own objectives and key results (or spar with Claude)
 3. Claude will read `CLAUDE.md` automatically and know how to help
 
 ## Automated tracking
@@ -21,7 +21,7 @@ Optional scripts in `tracking/` pull daily stats into `log.md` via cron. Add you
 ```sh
 pip install -r tracking/requirements.txt
 cp tracking/.env.example tracking/.env
-# add your WaniKani API key from wanikani.com/settings/personal-access-tokens
+# add your WaniKani API key from wanikani.com/settings/personal_access_tokens
 ```
 
 **Crontab (adjust paths to your setup):**
