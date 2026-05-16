@@ -1,0 +1,4 @@
+.env
+tracking/.env
+slides-img/
+tracking/__pycache__/
